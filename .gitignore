@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project Specific
+config.py
+storage.json
+logs/*
+!logs/.gitkeep

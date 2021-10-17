@@ -16,7 +16,7 @@ def get_video_status(title, description):
     if title == "Private video" and description == "This video is private.":
         return VideoStatus.PRIVATE
     if title == "Deleted video" and description == "This video is unavailable.":
-        return VideoStatus.PRIVATE
+        return VideoStatus.DELETED
     return VideoStatus.AVAILABLE
 
 def make_video(video_id, title, status):
